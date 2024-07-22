@@ -17,7 +17,19 @@
 ![image](https://github.com/user-attachments/assets/c571e547-fb80-465e-bcbd-562a5b5c317a)
 - Нашел привелегию (user, docker-user, administrator)
   
+Администратор
+
+![image](https://github.com/user-attachments/assets/2c21193a-5b75-4fb5-9886-22a77cd38f10)
+
+Пользователь
+
+![image](https://github.com/user-attachments/assets/302aba75-df18-44a8-ae06-03ab6aa640dc)
+
+docker
 ![image](https://github.com/user-attachments/assets/04ae171b-ea47-42ee-9e19-76c477a86065)
+
+
+
 - Нет пользователя
   
 ![image](https://github.com/user-attachments/assets/0e003f2b-2b02-492d-8f8b-ee4e0f488c06)
