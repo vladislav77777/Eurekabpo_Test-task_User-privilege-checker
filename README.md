@@ -21,7 +21,7 @@
 
 1. **Клонируйте репозиторий:**
     ```sh
-    git clone https://github.com/ваше-имя-пользователя/имя-репозитория.git
+    git clone ...
     ```
 
 2. **Установите зависимости:**
@@ -31,7 +31,7 @@
     ```
 
 3. **Соберите проект:**
-    Убедитесь, что у вас установлен [node-gyp](https://github.com/nodejs/node-gyp) и выполните:
+    Убедитесь, что у вас установлен [node-gyp](https://github.com/nodejs/node-gyp). Затем:
     ```sh
     npm run build
     ```
