@@ -3,7 +3,7 @@ const path = require('path');
 const addon = require('./build/Release/user_privilege');
 
 const app = express();
-const port = 3000;
+const port = 7777;
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: true }));

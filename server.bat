@@ -6,4 +6,4 @@ REM ждем, чтоб сеервер запустился
 timeout /t 3 /nobreak > NUL
 
 REM открываем браузер с начальной страницей
-start http://localhost:3000
+start http://localhost:7777
