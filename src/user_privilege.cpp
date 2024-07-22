@@ -28,6 +28,8 @@ bool IsUserInGroup(const std::wstring& group, const std::wstring& user) {
     DWORD totalentries;
     NET_API_STATUS status;
 
+    std::wcout << L"Group: " << group.c_str() << std::endl;
+
     status = NetLocalGroupGetMembers(NULL, group.c_str(), 3, (LPBYTE*)&buffer, MAX_PREFERRED_LENGTH, &entriesread, &totalentries, NULL);
     if (status == NERR_Success) {
         for (DWORD i = 0; i < entriesread; ++i) {
@@ -48,16 +50,20 @@ bool IsUserInGroup(const std::wstring& group, const std::wstring& user) {
 
 std::string GetUserPrivilege(const std::string& username) {
     std::wstring wusername = StringToWString(username);
-
-    if (IsUserInGroup(L"Users", wusername)) {
-        return "User";
+    // для форматирования
+    _setmode(_fileno(stdout), _O_U16TEXT);
+    SetConsoleOutputCP(CP_UTF8);
+    std::wstring users = StringToWString("Пользователи");
+    std::wstring admins = StringToWString("Администраторы");
+    if (IsUserInGroup(users, wusername)) {
+        return "Пользователи";
     }
     if (IsUserInGroup(L"docker-users", wusername)) {
         return "docker-users";
     }
     
-    if (IsUserInGroup(L"Administrators", wusername)) {
-        return "Admin";
+    if (IsUserInGroup(admins, wusername)) {
+        return "Администраторы";
     }
 
     return "";
