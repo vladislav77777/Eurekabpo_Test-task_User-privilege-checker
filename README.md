@@ -12,8 +12,11 @@
 
 ## Пример <a name="описание"></a>
 
+- Начальное окно
 ![image](https://github.com/user-attachments/assets/c571e547-fb80-465e-bcbd-562a5b5c317a)
+- Нашел привелегию (user, docker-user, administrator)
 ![image](https://github.com/user-attachments/assets/04ae171b-ea47-42ee-9e19-76c477a86065)
+- Нет пользователя
 ![image](https://github.com/user-attachments/assets/0e003f2b-2b02-492d-8f8b-ee4e0f488c06)
 
 
@@ -47,7 +50,7 @@
     ```
     http://localhost:7777
     ```
-...
+...............
 
 ## Технические детали <a name="технические-детали"></a>
 
@@ -59,7 +62,6 @@
 
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 - [N-API Documentation](https://nodejs.org/api/n-api.html)
-- [GitHub Documentation](https://docs.github.com/en/github)
 - [Microsoft Documentation for `NetLocalGroupGetMembers`](https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netlocalgroupgetmembers)
 
 ---
