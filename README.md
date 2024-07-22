@@ -13,10 +13,11 @@
 ## Пример <a name="описание"></a>
 
 - Начальное окно
-  
+
 ![image](https://github.com/user-attachments/assets/c571e547-fb80-465e-bcbd-562a5b5c317a)
+
 - Нашел привелегию (user, docker-user, administrator)
-  
+
 Администратор
 
 ![image](https://github.com/user-attachments/assets/2c21193a-5b75-4fb5-9886-22a77cd38f10)
@@ -28,44 +29,43 @@
 docker
 ![image](https://github.com/user-attachments/assets/04ae171b-ea47-42ee-9e19-76c477a86065)
 
-
-
 - Нет пользователя
-  
-![image](https://github.com/user-attachments/assets/0e003f2b-2b02-492d-8f8b-ee4e0f488c06)
 
+![image](https://github.com/user-attachments/assets/0e003f2b-2b02-492d-8f8b-ee4e0f488c06)
 
 ## Установка <a name="установка"></a>
 
 1. **Клонируйте репозиторий:**
-    ```sh
-    git clone ...
-    ```
+
+   ```sh
+   git clone ...
+   ```
 
 2. **Установите зависимости:**
-    Убедитесь, что у вас установлен [Node.js](https://nodejs.org/) и [npm](https://www.npmjs.com/). Затем:
-    ```sh
-    npm install
-    ```
+   Убедитесь, что у вас установлен [Node.js](https://nodejs.org/) и [npm](https://www.npmjs.com/). Затем:
+
+   ```sh
+   npm install
+   ```
 
 3. **Соберите проект:**
-    Убедитесь, что у вас установлен [node-gyp](https://github.com/nodejs/node-gyp). Затем:
-    ```sh
-    npm run build
-    ```
+   Убедитесь, что у вас установлен [node-gyp](https://github.com/nodejs/node-gyp). Затем:
+   ```sh
+   npm run build
+   ```
 
 ## Использование <a name="использование"></a>
 
 1. **Запустите сервер:**
-    ```sh
-    npm start
-    ```
+
+   ```sh
+   npm start
+   ```
 
 2. **Откройте веб-браузер и перейдите по адресу:**
-    ```
-    http://localhost:7777
-    ```
-...............
+   `    http://localhost:7777
+   `
+   ...............
 
 ## Технические детали <a name="технические-детали"></a>
 
